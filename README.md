@@ -19,4 +19,7 @@
 ---
 - [X] Day 18
 - Wrapped up WeSplit app and improved some features
+---
+- [X] Day 19
+- Completed the challenge by creating MeasureConvert application
 
