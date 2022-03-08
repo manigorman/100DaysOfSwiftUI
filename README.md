@@ -22,4 +22,12 @@
 ---
 - [X] Day 19
 - Completed the challenge by creating MeasureConvert application
-
+---
+- [X] Day 20
+- Stacks, Colors, Gradients, Buttons, Alerts
+---
+- [X] Day 21
+- Started making GuessFlag application
+---
+- [X] Day 22
+- Completed the the GuessFlag application
