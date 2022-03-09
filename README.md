@@ -37,3 +37,6 @@
 ---
 - [X] Day 24
 - Updated 1, 2 projects with ViewModifiers
+---
+- [X] Day 25
+- Created RockScissorsPaper game
