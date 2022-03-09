@@ -84,6 +84,7 @@ struct ContentView: View {
                 } header: {
                     Text("Total")
                 }
+                .foregroundColor(tipPercentage == 10 ? .red: .black)
             }
             .navigationTitle("WeSplit")
             .toolbar {

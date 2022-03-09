@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5AC158327D764B8003239A4 /* GuessTeFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC158227D764B8003239A4 /* GuessTeFlagApp.swift */; };
-		C5AC158527D764B8003239A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AC158427D764B8003239A4 /* ContentView.swift */; };
-		C5AC158727D764B9003239A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AC158627D764B9003239A4 /* Assets.xcassets */; };
-		C5AC158A27D764B9003239A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AC158927D764B9003239A4 /* Preview Assets.xcassets */; };
+		C5D6EA7527D7C9B900B2179B /* ViewsAndModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D6EA7427D7C9B900B2179B /* ViewsAndModifiersApp.swift */; };
+		C5D6EA7727D7C9B900B2179B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D6EA7627D7C9B900B2179B /* ContentView.swift */; };
+		C5D6EA7927D7C9BA00B2179B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D6EA7827D7C9BA00B2179B /* Assets.xcassets */; };
+		C5D6EA7C27D7C9BA00B2179B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D6EA7B27D7C9BA00B2179B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5AC157F27D764B8003239A4 /* GuessTeFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTeFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5AC158227D764B8003239A4 /* GuessTeFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTeFlagApp.swift; sourceTree = "<group>"; };
-		C5AC158427D764B8003239A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C5AC158627D764B9003239A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5AC158927D764B9003239A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5D6EA7127D7C9B900B2179B /* ViewsAndModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsAndModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D6EA7427D7C9B900B2179B /* ViewsAndModifiersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiersApp.swift; sourceTree = "<group>"; };
+		C5D6EA7627D7C9B900B2179B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5D6EA7827D7C9BA00B2179B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D6EA7B27D7C9BA00B2179B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C5AC157C27D764B8003239A4 /* Frameworks */ = {
+		C5D6EA6E27D7C9B900B2179B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C5AC157627D764B8003239A4 = {
+		C5D6EA6827D7C9B900B2179B = {
 			isa = PBXGroup;
 			children = (
-				C5AC158127D764B8003239A4 /* GuessTeFlag */,
-				C5AC158027D764B8003239A4 /* Products */,
+				C5D6EA7327D7C9B900B2179B /* ViewsAndModifiers */,
+				C5D6EA7227D7C9B900B2179B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C5AC158027D764B8003239A4 /* Products */ = {
+		C5D6EA7227D7C9B900B2179B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5AC157F27D764B8003239A4 /* GuessTeFlag.app */,
+				C5D6EA7127D7C9B900B2179B /* ViewsAndModifiers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5AC158127D764B8003239A4 /* GuessTeFlag */ = {
+		C5D6EA7327D7C9B900B2179B /* ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
-				C5AC158227D764B8003239A4 /* GuessTeFlagApp.swift */,
-				C5AC158427D764B8003239A4 /* ContentView.swift */,
-				C5AC158627D764B9003239A4 /* Assets.xcassets */,
-				C5AC158827D764B9003239A4 /* Preview Content */,
+				C5D6EA7427D7C9B900B2179B /* ViewsAndModifiersApp.swift */,
+				C5D6EA7627D7C9B900B2179B /* ContentView.swift */,
+				C5D6EA7827D7C9BA00B2179B /* Assets.xcassets */,
+				C5D6EA7A27D7C9BA00B2179B /* Preview Content */,
 			);
-			path = GuessTeFlag;
+			path = ViewsAndModifiers;
 			sourceTree = "<group>";
 		};
-		C5AC158827D764B9003239A4 /* Preview Content */ = {
+		C5D6EA7A27D7C9BA00B2179B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C5AC158927D764B9003239A4 /* Preview Assets.xcassets */,
+				C5D6EA7B27D7C9BA00B2179B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5AC157E27D764B8003239A4 /* GuessTeFlag */ = {
+		C5D6EA7027D7C9B900B2179B /* ViewsAndModifiers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5AC158D27D764B9003239A4 /* Build configuration list for PBXNativeTarget "GuessTeFlag" */;
+			buildConfigurationList = C5D6EA7F27D7C9BA00B2179B /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */;
 			buildPhases = (
-				C5AC157B27D764B8003239A4 /* Sources */,
-				C5AC157C27D764B8003239A4 /* Frameworks */,
-				C5AC157D27D764B8003239A4 /* Resources */,
+				C5D6EA6D27D7C9B900B2179B /* Sources */,
+				C5D6EA6E27D7C9B900B2179B /* Frameworks */,
+				C5D6EA6F27D7C9B900B2179B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTeFlag;
-			productName = GuessTeFlag;
-			productReference = C5AC157F27D764B8003239A4 /* GuessTeFlag.app */;
+			name = ViewsAndModifiers;
+			productName = ViewsAndModifiers;
+			productReference = C5D6EA7127D7C9B900B2179B /* ViewsAndModifiers.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C5AC157727D764B8003239A4 /* Project object */ = {
+		C5D6EA6927D7C9B900B2179B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					C5AC157E27D764B8003239A4 = {
+					C5D6EA7027D7C9B900B2179B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = C5AC157A27D764B8003239A4 /* Build configuration list for PBXProject "GuessTeFlag" */;
+			buildConfigurationList = C5D6EA6C27D7C9B900B2179B /* Build configuration list for PBXProject "ViewsAndModifiers" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C5AC157627D764B8003239A4;
-			productRefGroup = C5AC158027D764B8003239A4 /* Products */;
+			mainGroup = C5D6EA6827D7C9B900B2179B;
+			productRefGroup = C5D6EA7227D7C9B900B2179B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5AC157E27D764B8003239A4 /* GuessTeFlag */,
+				C5D6EA7027D7C9B900B2179B /* ViewsAndModifiers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C5AC157D27D764B8003239A4 /* Resources */ = {
+		C5D6EA6F27D7C9B900B2179B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AC158A27D764B9003239A4 /* Preview Assets.xcassets in Resources */,
-				C5AC158727D764B9003239A4 /* Assets.xcassets in Resources */,
+				C5D6EA7C27D7C9BA00B2179B /* Preview Assets.xcassets in Resources */,
+				C5D6EA7927D7C9BA00B2179B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C5AC157B27D764B8003239A4 /* Sources */ = {
+		C5D6EA6D27D7C9B900B2179B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AC158527D764B8003239A4 /* ContentView.swift in Sources */,
-				C5AC158327D764B8003239A4 /* GuessTeFlagApp.swift in Sources */,
+				C5D6EA7727D7C9B900B2179B /* ContentView.swift in Sources */,
+				C5D6EA7527D7C9B900B2179B /* ViewsAndModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C5AC158B27D764B9003239A4 /* Debug */ = {
+		C5D6EA7D27D7C9BA00B2179B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		C5AC158C27D764B9003239A4 /* Release */ = {
+		C5D6EA7E27D7C9BA00B2179B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +261,14 @@
 			};
 			name = Release;
 		};
-		C5AC158E27D764B9003239A4 /* Debug */ = {
+		C5D6EA8027D7C9BA00B2179B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTeFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ViewsAndModifiers/Preview Content\"";
 				DEVELOPMENT_TEAM = MNX7G7328F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,22 +282,22 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = education.GuessTeFlag;
-				PRODUCT_NAME = GuessTeFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = education.ViewsAndModifiers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C5AC158F27D764B9003239A4 /* Release */ = {
+		C5D6EA8127D7C9BA00B2179B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTeFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ViewsAndModifiers/Preview Content\"";
 				DEVELOPMENT_TEAM = MNX7G7328F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,8 +311,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = education.GuessTeFlag;
-				PRODUCT_NAME = GuessTeFlag;
+				PRODUCT_BUNDLE_IDENTIFIER = education.ViewsAndModifiers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5AC157A27D764B8003239A4 /* Build configuration list for PBXProject "GuessTeFlag" */ = {
+		C5D6EA6C27D7C9B900B2179B /* Build configuration list for PBXProject "ViewsAndModifiers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5AC158B27D764B9003239A4 /* Debug */,
-				C5AC158C27D764B9003239A4 /* Release */,
+				C5D6EA7D27D7C9BA00B2179B /* Debug */,
+				C5D6EA7E27D7C9BA00B2179B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5AC158D27D764B9003239A4 /* Build configuration list for PBXNativeTarget "GuessTeFlag" */ = {
+		C5D6EA7F27D7C9BA00B2179B /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5AC158E27D764B9003239A4 /* Debug */,
-				C5AC158F27D764B9003239A4 /* Release */,
+				C5D6EA8027D7C9BA00B2179B /* Debug */,
+				C5D6EA8127D7C9BA00B2179B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C5AC157727D764B8003239A4 /* Project object */;
+	rootObject = C5D6EA6927D7C9B900B2179B /* Project object */;
 }

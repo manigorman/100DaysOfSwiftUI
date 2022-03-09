@@ -31,3 +31,9 @@
 ---
 - [X] Day 22
 - Completed the the GuessFlag application
+---
+- [X] Day 23
+- Worked with Views and Modifiers
+---
+- [X] Day 24
+- Updated 1, 2 projects with ViewModifiers
