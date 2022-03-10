@@ -40,3 +40,9 @@
 ---
 - [X] Day 25
 - Created RockScissorsPaper game
+---
+- [X] Day 26
+- Worked with Date, MLModel
+---
+- [X] Day 27
+- Created BetterRest application
