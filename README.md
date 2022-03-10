@@ -46,3 +46,6 @@
 ---
 - [X] Day 27
 - Created BetterRest application
+---
+- [X] Day 28
+- Wrapped up the app
