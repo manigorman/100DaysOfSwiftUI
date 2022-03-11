@@ -49,3 +49,12 @@
 ---
 - [X] Day 28
 - Wrapped up the app
+---
+- [X] Day 29
+- Worked with List, UITextChecker and app bundle
+---
+- [X] Day 30
+- Worked on WordScramble app
+---
+- [X] Day 31
+- Wrapped up the app
