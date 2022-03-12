@@ -56,5 +56,11 @@
 - [X] Day 30
 - Worked on WordScramble app
 ---
-- [X] Day 31
-- Wrapped up the app
+- [X] Day 32
+- Implicit animation and animation bindings
+---
+- [X] Day 33
+- Animating gestures, custom transitions
+---
+- [X] Day 34
+- Wrapped up
