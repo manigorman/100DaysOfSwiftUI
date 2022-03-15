@@ -64,3 +64,13 @@
 ---
 - [X] Day 34
 - Wrapped up
+---
+- [X] Day 35
+- Created edutainment app
+---
+- [X] Day 36
+- Worked with onDelete(), UserDefaults, Codable, sheet
+---
+- [X] Day 37
+- Created iExpense application with 2 Views
+
