@@ -14,21 +14,49 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(expenses.items) { item in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(item.name)
-                                .font(.headline)
+                Section {
+                    ForEach(expenses.items.filter {$0.type == "Personal"}) { item in
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(item.name)
+                                    .font(.headline)
+                                
+                                Text(item.type)
+                            }
                             
-                            Text(item.type)
+                            Spacer()
+                            
+                            let code = Locale.current.currencyCode ?? "USD"
+                            Text(item.amount, format: .currency(code: code))
+                                .foregroundColor((item.amount >= 1000) ? .green : .red)
                         }
-                        
-                        Spacer()
-                        
-                        Text(item.amount, format: .currency(code: "USD"))
                     }
+                    .onDelete(perform: removeItems)
+                } header: {
+                    Text("Personal expenses")
                 }
-                .onDelete(perform: removeItems)
+                
+                Section {
+                    ForEach(expenses.items.filter {$0.type == "Business"}) { item in
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(item.name)
+                                    .font(.headline)
+                                
+                                Text(item.type)
+                            }
+                            
+                            Spacer()
+                            
+                            let code = Locale.current.currencyCode ?? "USD"
+                            Text(item.amount, format: .currency(code: code))
+                                .foregroundColor((item.amount >= 1000) ? .green : .red)
+                        }
+                    }
+                    .onDelete(perform: removeItems)
+                } header: {
+                    Text("Business expenses")
+                }
             }
             .navigationTitle("iExpense")
             .toolbar {
@@ -38,7 +66,7 @@ struct ContentView: View {
                     Image(systemName: "plus")
                 }
             }
-            .sheet(isPresented: $showingAddExpense) {
+            .sheet(isPresented: $showingAddExpense, onDismiss: didDismiss) {
                 AddView(expenses: expenses)
             }
         }
@@ -46,6 +74,10 @@ struct ContentView: View {
     
     func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
+    }
+    
+    func didDismiss() {
+        showingAddExpense = false
     }
 }
 
