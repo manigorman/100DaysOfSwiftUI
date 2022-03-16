@@ -76,3 +76,12 @@
 ---
 - [X] Day 38
 - Completed Challenge (not at all)
+---
+- [X] Day 39
+- ScrollView, NavigationLink, Codable, Grid
+---
+- [X] Day 40
+- Generics with Codable data
+---
+- [X] Day 41
+- Created Moonshot app with 3 Views
